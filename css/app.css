@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.signin{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.toan {
+    height: 30px;
+    background-color: red;
+    width: 100%;
+    position: fixed;
+}
+
+.header a:hover{
+    text-decoration: underline;
+    color: orange;
+    transition: all 0.5s ease;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    background-color: #1abc9c;
+    position: fixed;
+    overflow: hidden;
+    /* margin-left: -15%; */
+    width: 70%;
+}
+
+
+.center-absolute {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box{
+    position: relative;
+    right: 7px;
+}
+
+.search-box i{
+    position: absolute;    
+    top: 11px;
+    left: 10px;
+}
+
+input{
+    height: 25px;
+    padding-left: 25px;
+    border: 1px solid #ccc!important;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.img-cover{
+    width: 100%;
+    height: 300px;
+    background-image: url('../Pictures/BackgrounfCover-School.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.nav{
+    background-color: #1abc9c;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+}
+
+.nav div a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.5s ease;
+}
+
+.nav div a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+.nav-submit{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.shows-background{
+    width: 100%;
+    display: flex;
+    height: 400px;
+}
+
+.show-left{
+    width: 70%;
+    border: 2px solid #2ecc71;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    margin-right: 4px;
+}
+
+.show-right{
+    width: 30%;
+    border: 2px solid #2ecc71;
+    border-top: none;
+    border-bottom: none;
+    margin-left: 4px;
+    padding-bottom: 20px;
+}
+
+.article{
+    border: 2px solid #2ecc71;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1abc9c;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 75px;
+}
+
+.chevron-down{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.posts{
+    display: flex;
+    align-items: center;
+}
+
+.article a{
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+.article a:hover{
+    color: red;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 164px;
+    margin-left: -26px;
+    margin-top: -10px;
+    transition: all 0.5s ease;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    background-color: #1abc9c;
+}
+
+.diagram{
+    margin-top: 15px;
+    margin-bottom: 15px;    
+}
+
+.diagram:hover a {
+    text-decoration: underline;
+    color: orange;
+}
+
+.diagram a {
+    margin: 0 !important;
+    padding-left: 20px;
+}
+.nav-menu {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+}
+
+.nav-menu a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu a span {
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 100%;
+    display: flex;
+    align-items: center;    
+}
+.active-menu {
+    background-color: white;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    color: #1abc9c;
+}
+
+.active-menu:hover {
+    text-decoration: underline;
+    color: #1abc9c;
+}

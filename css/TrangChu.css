@@ -1,0 +1,47 @@
+ .next-page{
+    margin: 6px;
+    margin-top: 53px;
+    font-size: 20px;
+}
+
+.news-img{
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.text-posts{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.text-posts:hover{
+    text-decoration: underline;
+    color: #3498db;
+    transition: all 0.3s ease;
+}
+
+.number-page{
+    border: 2px solid black;
+    border-radius: 400px;
+    width: 2.4%;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 6px;
+    margin-top: 50px;
+}
+
+.posts{
+    display: flex;
+    align-items: center;
+}
+
+.calendar{
+    color: red;
+    font-size: 23px;
+    margin-top: 10px;
+}

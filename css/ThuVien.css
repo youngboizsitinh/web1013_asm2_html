@@ -1,0 +1,27 @@
+.edit-img{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.margin-img{
+    margin: 15px;
+}
+
+.text-img{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: white;
+    background-color: #1abc9c;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    height: 40px;
+}
+
+.text-center{
+    display: flex;
+    justify-content: center;
+}

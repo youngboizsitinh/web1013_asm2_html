@@ -1,0 +1,191 @@
+/* body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.signin{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header a:hover{
+    text-decoration: underline;
+    color: orange;
+    transition: all 0.5s ease;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 330%;
+    background-color: #1abc9c;
+}
+
+.fixed-header{
+    position: fixed;
+}
+
+.center-absolute {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box{
+    position: relative;
+    right: 7px;
+}
+
+.search-box i{
+    position: absolute;    
+    top: 11px;
+    left: 10px;
+}
+
+input{
+    height: 25px;
+    padding-left: 25px;
+    border: 1px solid #ccc!important;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.img-cover{
+    width: 100%;
+    height: 400px;
+    background-image: url('../Pictures/BackgrounfCover-School.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.nav{
+    background-color: #1abc9c;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+}
+
+.nav div a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    transition: all 0.5s ease;
+}
+
+.nav div a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+.nav-submit{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.shows-background{
+    width: 100%;
+    display: flex;
+    margin-top: 4px;
+    height: 400px;
+}
+
+.show-left{
+    width: 70%;
+    border: 2px solid #2ecc71;
+    margin-right: 4px;
+}
+
+.show-right{
+    width: 30%;
+    border: 2px solid #2ecc71;
+    margin-left: 4px;
+    padding-bottom: 20px;
+}
+
+.article{
+    border: 2px solid #2ecc71;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1abc9c;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 35px;
+}
+
+.footer-background{
+    margin-top: 4px;
+}
+
+.chevron-down{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.posts{
+    display: flex;
+    align-items: center;
+}
+
+.article a{
+    text-decoration: none;
+}
+
+.article a:hover{
+    color: red;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 300px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    background-color: #1abc9c;
+}
+
+.diagram{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+ */
