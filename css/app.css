@@ -5,6 +5,10 @@ body {
     background-image: linear-gradient(140deg, #dbeade 0%, #aba660 50%, #4189d6 75%);
 }
 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .signin{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -160,6 +164,7 @@ input{
     justify-content: center;
     font-size: 17px;
     background-color: #1abc9c;
+    color: white;
 }
 
 .article-content {
@@ -306,4 +311,9 @@ footer{
 
 .article-border:hover i {
     color: white
+}
+
+.center-form{
+    text-align: center;
+    margin-top: 10px;
 }
