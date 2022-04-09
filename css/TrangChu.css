@@ -4,6 +4,10 @@
     font-size: 20px;
 }
 
+.shows-background {
+    /* height: 1800px !important; */
+}
+
 .news-img{
     margin: 20px;
     margin-top: 40px;
@@ -14,7 +18,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .text-posts:hover{
@@ -24,7 +28,7 @@
 }
 
 .number-page{
-    border: 2px solid black;
+    border: 2px solid #1abc9c;;
     border-radius: 400px;
     width: 2.4%;
     display: flex;
@@ -33,15 +37,16 @@
     font-weight: bold;
     margin: 6px;
     margin-top: 50px;
+    background-color: #1abc9c;;
 }
 
-.posts{
-    display: flex;
-    align-items: center;
+.post {
+    margin-top: 30px;
+    padding: 10px;
 }
 
 .calendar{
     color: red;
-    font-size: 23px;
+    font-size: 16px;
     margin-top: 10px;
 }

@@ -2,7 +2,7 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(140deg, #dbeade 0%, #878787 50%, #4189d6 75%);
+    background-image: linear-gradient(140deg, #dbeade 0%, #aba660 50%, #4189d6 75%);
 }
 
 .signin{
@@ -39,7 +39,6 @@ body {
     z-index: 11;
 }
 
-
 .center-absolute {
     display: flex;
     align-items: center;
@@ -74,8 +73,20 @@ input{
     background-position: center;
 }
 
+.w-100 {
+    width: 100%;
+}
+
 .w-70 {
     width: 70%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-30 {
+    width: 30%;
 }
 
 .w-15 {
@@ -113,7 +124,7 @@ input{
 .shows-background{
     width: 100%;
     display: flex;
-    height: 400px;
+    /* height: 400px; */
     background-color: white;
 }
 
@@ -123,7 +134,8 @@ input{
     border-top: none;
     border-bottom: none;
     border-right: none;
-    margin-right: 4px;
+    /* margin-right: 4px; */
+    padding: 10px;
 }
 
 .show-right{
@@ -147,6 +159,12 @@ input{
     display: flex;
     justify-content: center;
     font-size: 17px;
+    background-color: #1abc9c;
+}
+
+.article-content {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 footer{
@@ -156,7 +174,7 @@ footer{
     background-color: #1abc9c;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    height: 75px;
+    height: 55px;
 }
 
 .chevron-down{
@@ -165,18 +183,14 @@ footer{
     font-size: 22px;
 }
 
-.posts{
-    display: flex;
-    align-items: center;
-}
 
 .article a{
     text-decoration: none;
-    color: #1abc9c;
+    color: white;
 }
 
 .article a:hover{
-    color: red;
+    color: #0984e3;
 }
 
 .dropdown {
@@ -242,4 +256,54 @@ footer{
 .active-menu:hover {
     text-decoration: underline;
     color: #1abc9c;
+}
+
+.footer-logo{
+    margin-right: 40px;
+    height: 50px;
+}
+
+.article-index{
+    text-align: center;
+}
+
+.article-text{
+    color: #1abc9c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.article-text:hover{
+    color: white;
+}
+
+.article-border{
+    border: 2px solid #74b9ff;
+    height: 25px;
+    width: 100%-2px;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+
+.article-border:hover{
+    background-color: #0984e3;
+    color: white;
+}
+
+.article-border:hover .article-text{
+    color: white;
+}
+
+
+.article-border i {
+    color: #1abc9c;
+    text-align: left;
+}
+
+.article-border:hover i {
+    color: white
 }
