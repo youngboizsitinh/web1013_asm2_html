@@ -2,6 +2,7 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
+    background-image: linear-gradient(140deg, #dbeade 0%, #878787 50%, #4189d6 75%);
 }
 
 .signin{
@@ -113,6 +114,7 @@ input{
     width: 100%;
     display: flex;
     height: 400px;
+    background-color: white;
 }
 
 .show-left{
@@ -184,11 +186,12 @@ footer{
 .dropdown-content{
     display: none;
     position: absolute;
+    border-radius: 10px;
     width: 164px;
     margin-left: -26px;
-    margin-top: -1px;
-    transition: all 0.5s ease;
+    margin-top: 1px;    
     z-index: 10;
+    transition: all 0.5s ease !important;
 }
 
 .dropdown:hover .dropdown-content{
