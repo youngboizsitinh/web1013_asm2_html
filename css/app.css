@@ -2,6 +2,7 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
+    background-image: linear-gradient(140deg, #dbeade 0%, #aba660 50%, #4189d6 75%);
 }
 
 .signin{
@@ -35,6 +36,7 @@ body {
     overflow: hidden;
     /* margin-left: -15%; */
     width: 70%;
+    z-index: 11;
 }
 
 .center-absolute {
@@ -122,7 +124,8 @@ input{
 .shows-background{
     width: 100%;
     display: flex;
-    height: 1500px;
+    /* height: 400px; */
+    background-color: white;
 }
 
 .show-left{
@@ -159,6 +162,11 @@ input{
     background-color: #1abc9c;
 }
 
+.article-content {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 footer{
     display: flex;
     justify-content: center;
@@ -192,10 +200,12 @@ footer{
 .dropdown-content{
     display: none;
     position: absolute;
+    border-radius: 10px;
     width: 164px;
     margin-left: -26px;
-    margin-top: -10px;
-    transition: all 0.5s ease;
+    margin-top: 1px;    
+    z-index: 10;
+    transition: all 0.5s ease !important;
 }
 
 .dropdown:hover .dropdown-content{
@@ -205,7 +215,7 @@ footer{
 
 .diagram{
     margin-top: 15px;
-    margin-bottom: 15px;    
+    margin-bottom: 15px;
 }
 
 .diagram:hover a {
@@ -272,7 +282,7 @@ footer{
 .article-border{
     border: 2px solid #74b9ff;
     height: 25px;
-    width: 266px;
+    width: 100%-2px;
     justify-content: start;
     align-items: center;
     display: flex;
