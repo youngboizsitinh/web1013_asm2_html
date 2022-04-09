@@ -70,10 +70,11 @@
 
 .answer {
     display: flex;
-    justify-content: space-between;
-    width: 600px;
+    justify-content: center;
+    /* width: 600px; */
     margin-top: 60px;
-    margin-left: 30px;
+    width: 100%;
+    /* margin-left: 30px; */
 }
 
 .text-anser {
