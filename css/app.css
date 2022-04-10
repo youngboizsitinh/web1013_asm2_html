@@ -60,7 +60,7 @@ body {
     left: 10px;
 }
 
-input{
+.input-search{
     height: 25px;
     padding-left: 25px;
     border: 1px solid #ccc!important;
@@ -316,4 +316,17 @@ footer{
 .center-form{
     text-align: center;
     margin-top: 10px;
+}
+
+.select-style{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border: 2px solid #1abc9c;
+    color: #1abc9c;
+}
+
+.select-style:focus{
+    border: 2px solid #1abc9c;
+    outline: none !important;
 }
