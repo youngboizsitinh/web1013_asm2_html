@@ -6,9 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="GopY.css">
+    <link rel="stylesheet" href="css/SoDoToChuc.css">
     <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/GopY.css">
     <script src="https://kit.fontawesome.com/75a8830f01.js" crossorigin="anonymous"></script>
 </head>
 
@@ -35,15 +34,12 @@
                     </a>
                 </div>
                 <div class="dropdown nav-menu">
-                    <a href="#"> <span><i style="font-size: 13px;" class="fa-solid fa-book-open-reader"></i>&nbsp;Giới
-                            thiệu</span> </a>
+                    <a href="#"> <span class="active-menu"><i style="font-size: 13px;"
+                                class="fa-solid fa-book-open-reader"></i>&nbsp;Giới thiệu</span> </a>
                     <div class="dropdown-content">
-                        <div class="diagram"><a href="./GioiThieu.html"><i style="font-size: 13px;"
-                                    class="fa-brands fa-envira"></i>&nbsp; Nổi bật</a></div>
-                        <div class="diagram"><a href="./SoDoToChuc.html"><i style="font-size: 13px;"
-                                    class="fa-solid fa-diagram-project"></i>&nbsp; Sơ đồ tổ chức</a></div>
-                        <div class="diagram"><a href="./ThuVien.html"><i style="font-size: 13px;"
-                                    class="fa-solid fa-image"></i>&nbsp;Thư viện</a></div>
+                        <div class="diagram"><a href="./GioiThieu.html"><i style="font-size: 13px;" class="fa-brands fa-envira"></i>&nbsp; Nổi bật</a></div>
+                        <div class="diagram"><a href="./SoDoToChuc.html"><i style="font-size: 13px;" class="fa-solid fa-diagram-project"></i>&nbsp; Sơ đồ tổ chức</a></div>
+                        <div class="diagram"><a href="./ThuVien.html"><i style="font-size: 13px;" class="fa-solid fa-image"></i>&nbsp;Thư viện</a></div>
                     </div>
                 </div>
                 <div class="nav-menu">
@@ -51,8 +47,8 @@
                             hệ</span></a>
                 </div>
                 <div class="nav-menu">
-                    <a href="./GopY.html"><span class="active-menu"><i style="font-size: 13px;"
-                                class="fa-solid fa-comment"></i>&nbsp;Góp ý</span></a>
+                    <a href="./GopY.html"><span><i style="font-size: 13px;" class="fa-solid fa-comment"></i>&nbsp;Góp
+                            ý</span></a>
                 </div>
                 <div class="nav-menu">
                     <a href="./HoiDap.html"><span><i style="font-size: 13px;" class="fa-solid fa-comments"></i>&nbsp;Hỏi
@@ -63,46 +59,47 @@
 
         <div class="shows-background">
             <div class="show-left">
-                <!-- Phần làm bài giữa các trang html -->
-                <div>
-                    <div class="feedback-header">
-                        Đóng góp ý kiến
-                    </div>
-                    <div class="request-text">
-                        Xin mời nhập đầy đủ thông tin góp ý về Cổng thông tin điện tử, mọi góp ý của bạn đều rất có ý
-                        nghĩa với nhà trường. <br> <br> <br>
-                    </div>
-                    <div class="w-100" style="display: flex;">
-                        <div class="w-15"></div>
-                        <div class="w-70">
-                            <div class="w-100">
-                                <label>Họ và tên</label> <span class="red-star">(*)</span> <br>
-                                <input class="input-name" type="text" id="hoten"> <br>
-                                <label>Email</label> <span class="red-star">(*)</span> <br>
-                                <input class="input-name" type="text" id="email"> <br>
-                                <label>Số điện thoại</label> <span class="red-star">(*)</span> <br>
-                                <input class="input-name" type="text" id="sdt"> <br>
-                                <label>Địa chỉ</label> <span class="red-star">(*)</span> <br>
-                                <input class="input-name" type="text" id="diachi"> <br>
-                                <label>Chủ đề</label> <span class="red-star">(*)</span> <br>
-                                <input class="input-name" type="text" id="chude"> <br>
-                                <label>Lĩnh vực</label> <span class="red-star">(*)</span> <br>
-                                <input class="input-name" type="text" id="linhvuc"> <br>
-                                <label>Nội dung</label> <span class="red-star">(*)</span> <br>
-                                <textarea style="width: 100%" class="content-size" name="noidung" id="noidung" cols="37" rows="5"></textarea>
-                                <div class="button-center">
-                                    <button type="submit" class="submit">
-                                        Gửi
-                                    </button>
-                                    <button type="submit" class="again">
-                                        Làm lại
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="w-15"></div>
-                    </div>
-                </div>
+              <div class="tree">
+                <ul>
+                  <li>
+                    <a href="#">Chi bộ - BGH</a>
+                    <ul>
+                      <li class="child">
+                        <a href="#">BCH - Công Đoàn</a>
+                      </li>
+                      <li class="child">
+                        <a href="#">BCH - Đoàn Trường</a>
+                      </li>
+                      <li class="child">
+                        <a href="#">Các Tổ Chuyên Môn</a>
+                        <ul>
+                          <li class="child-child">
+                            <a href="#">Tổ Toán Tin</a>
+                          </li>
+                          <li class="child-child">
+                            <a href="#">Tổ Văn - Sử - GDCD</a>
+                          </li>
+                          <li class="child-child">
+                            <a href="#">Tổ Hóa - Lý - KHTN</a>
+                          </li>
+                          <li class="child-child">
+                            <a href="#">Tổ Ngoại Ngữ - Địa</a>
+                          </li>
+                          <li class="child-child">
+                            <a href="#">Tổ TD - SINH - CN</a>
+                          </li>
+                          <li class="child-child">
+                            <a href="#">Tổ Văn Phòng</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="child">
+                        <a href="#">Ban TT Cha Mẹ HS</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
                 <!-- Phần làm bài giữa các html -->
             </div>
             <div class="show-right">
@@ -129,7 +126,7 @@
                         </div>
                     </div>
                 </div>
-
+                
                 <div>
                     <div class="article">
                         Tra cứu
@@ -172,7 +169,7 @@
                         </div>
                     </div>
                 </div>
-
+                
                 <div>
                     <div class="article">
                         Liên kết website
